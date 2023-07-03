@@ -26,7 +26,7 @@
   }, (error) => console.log(error));*/
 
 
-  
+//Images
   const potatoesImage = document.querySelector("#mashedPotatoesImg");
   const broccoliImage = document.querySelector("#broccoliImg");
   const steakImage = document.querySelector("#steakImg");
@@ -97,6 +97,7 @@ obtainInstruction('steak', 0)
   .finally(()=> document.querySelector("#steak").innerHTML+=`<li>Steak is ready!</li>`)
   steakImage.removeAttribute("hidden")
  
+
 
 // Iteration 3 using async/await
 async function makeBroccoli() {
